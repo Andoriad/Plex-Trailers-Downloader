@@ -1,6 +1,5 @@
 #!/bin/bash
 directories=( */ )
-#declare -i number
 number=${#directories[*]}
 let number=$number-1
 for dir in $(seq 0 $number)
